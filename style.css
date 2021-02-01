@@ -1,24 +1,25 @@
 /* Global ==================== */
 :root {
---dark-blue: #363f36;
---green: #49aa26;
---light-green: #3dd705;
---red: #e92929;
+    --dark-blue: #363f36;
+    --green: #49aa26;
+    --light-green: #3dd705;
+    --red: #e92929;
 
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html{
+
+html {
     font-size: 93.75%;
 
 }
 
 body {
-     background: #f0f2f5;
+    background: #f0f2f5;
     font-family: 'poppins', sans-serif;
 }
 
@@ -28,7 +29,7 @@ body {
     height: 1px;
     padding: 0;
     margin: -1px;
-    overflow:hidden;
+    overflow: hidden;
     clip: rect(0, 0, 0, 0);
     white-space: nowrap;
     border-width: 0;
@@ -43,7 +44,7 @@ body {
 }
 
 /* Titles =================== */
-h2{
+h2 {
     margin-top: 3.2rem;
     margin-bottom: 0.8rem;
     color: var(--dark-blue);
@@ -52,14 +53,16 @@ h2{
 }
 
 /* Links and Buttons ========================*/
-a{
+a {
     color: var(--green);
     text-decoration: none;
 }
+
 a:hover {
     color: var(--light-green);
 
 }
+
 button {
     width: 100%;
     height: 50px;
@@ -82,7 +85,7 @@ button:hover {
 
 .button.new {
     display: inline-block;
-margin-bottom: .8rem;
+    margin-bottom: .8rem;
 
 }
 
@@ -108,6 +111,7 @@ header {
     text-align: center;
 
 }
+
 #logo {
     color: #fff;
     font-weight: 100;
@@ -162,6 +166,7 @@ header {
     width: 100%;
     overflow-x: auto;
 }
+
 #data-table {
     width: 100%;
     border-spacing: 0 0.5rem;
@@ -187,7 +192,7 @@ table th {
 
 
 
-    text-align: left;  
+    text-align: left;
 }
 
 table tbody tr {
@@ -212,7 +217,7 @@ td.expense {
 
 table tbody td {
     background: white;
-    padding: 1rem 2rem;  
+    padding: 1rem 2rem;
 }
 
 /* Modal ========================== */
@@ -241,7 +246,7 @@ table tbody td {
 }
 
 .modal {
-    background:#f0f2f5;
+    background: #f0f2f5;
     padding: 2.4rem;
     position: relative;
     width: 90%;
@@ -282,13 +287,14 @@ input {
     justify-content: space-between;
     align-items: center;
 }
+
 .input-group.actions .button,
 .input-group.actions button {
     width: 48%;
 }
 
 /* Footer ============================*/
-footer{
+footer {
     text-align: center;
     padding: 4rem 0 2rem;
     color: var(--dark-blue);
@@ -301,14 +307,11 @@ footer{
     html {
         font-size: 87.5%;
     }
+
     #balance {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 2rem;
     }
-    
-
-
-
 
 }
