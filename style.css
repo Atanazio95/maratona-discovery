@@ -149,6 +149,7 @@ header {
 }
 
 .card p {
+
     font-size: 2rem;
     line-height: 3rem;
 
@@ -158,6 +159,7 @@ header {
 .card.total {
     background: var(--green);
     color: white;
+    
 }
 
 /* Table ======================= */
